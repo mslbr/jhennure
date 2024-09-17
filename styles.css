@@ -1,0 +1,27 @@
+#resto {
+    background: linear-gradient(to left, white, red, rgb(190, 0, 0), rgb(141, 0, 0));
+    background-clip: text;
+    display: inline;
+    color: transparent;
+    animation: animated 6s linear infinite;
+    
+}
+    @keyframes animated {
+    to {background-position-x: 161px;}
+}
+
+.outro { 
+    display: block;
+    margin: 20px;
+    color: rgb(211, 0, 0); 
+    background: rgb(34, 33, 33);
+    margin:3px;
+    font-family: Sofadi One; 
+    }
+
+body{
+    background: rgb(34, 33, 33);
+}
+
+
+  
